@@ -5,34 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lisa Jojo Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Pacifico&family=Signika+Negative&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <nav>
-      <img src="assets/logo.png" alt="LJ logo">
-      <a href="index.html">About me</a>
-      <a href="portfolio-page.html">My Portfolio</a>
-      <a href="contact-page.html">Contact me</a>
+      <img class="logo" src="assets/logo.png" alt="LJ logo" />
+      <a class="scale blue" href="index.html">About me</a>
+      <a class="scale red" href="portfolio-page.html">My Portfolio</a>
+      <a class="scale green" href="contact-page.html">Contact me</a>
     </nav>
 
     <div class="hero">
-      <img src="assets/person.jpg" alt="Lisa Jojo photo" />
+      <img
+        class="personal-photo"
+        src="assets/person.jpg"
+        alt="Lisa Jojo photo"
+      />
+
       <h1>Hello there! I'm Lisa Jojo</h1>
+
       <p>
         I am currently studying Computer Science at University Putra Malaysia
         (UPM) as a 2nd year student. I am keen to couple the theories of
         computer science with financial markets and wish to seek a career in
         markets. I hope to use my programming skills to analyze and optimize
-        financial portfolios using Python and R
+        financial portfolios using Python and R.
       </p>
-
-      <footer>
-        <a href="https://www.facebook.com/">Facebook</a>
-        <a href="https://www.linkedin.com/">Linkedin</a>
-        <a href="https://twitter.com/">Twitter</a>
-        <a href="https://www.instagram.com/">Instagram</a>
-      </footer>
     </div>
+
+    <footer>
+      <a href="https://www.facebook.com/"
+        ><img
+          id="facebook"
+          class="scale"
+          src="assets/facebook.svg"
+          alt="Facebook logo"
+      /></a>
+      <a href="https://www.linkedin.com/"
+        ><img
+          id="linkedin"
+          class="scale"
+          src="assets/linkedin.svg"
+          alt="linkedin logo"
+      /></a>
+      <a href="https://twitter.com/"
+        ><img
+          id="twitter"
+          class="scale"
+          src="assets/twitter.svg"
+          alt="Twitter logo"
+      /></a>
+      <a href="https://www.instagram.com/"
+        ><img
+          id="instagram"
+          class="scale"
+          src="assets/instagram.svg"
+          alt="Instagram logo"
+      /></a>
+    </footer>
   </body>
 </html>

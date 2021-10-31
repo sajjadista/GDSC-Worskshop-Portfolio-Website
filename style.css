@@ -1,3 +1,113 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  font-family: "Signika Negative", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url("assets/background.jpg");
+}
+
+.hero {
+  width: 60%;
+  text-align: center;
+  margin: 1% auto 1% auto;
+  padding: 1% 1%;
+  backdrop-filter: blur(20px) saturate(100%) contrast(45%) brightness(130%);
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 1px solid #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-family: "Pacifico", cursive;
+
+  margin: 5px 0px 5px 0px;
+}
+
+.hero p {
+  font-size: 20px;
+  width: 75%;
+
+  margin: 5px auto 5px auto;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+}
+
+nav a {
+  font-family: "Concert One", cursive;
+  font-size: 20px;
+  text-decoration: none;
+
+  padding: 15px 0 15px 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.personal-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin-top: 6vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer a {
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+.scale:hover{
+ transform: scale(1.1);
+}
+.blue {
+  color: darkblue;
+  
+  
+  
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+#facebook {
+  height: 65px;
+  width: 65px;
+}
+
+#instagram {
+  height: 65px;
+  width: 65px;
+}
+#linkedin {
+  height: 65px;
+  width: 65px;
+}
+#twitter {
+  height: 65px;
+  width: 65px;
 }
