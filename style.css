@@ -1,11 +1,76 @@
+/*============== General Rules ============== */
 * {
   font-family: "Signika Negative", sans-serif;
   padding: 0;
   margin: 0;
 }
 
+/*============== Tag Rules ============== */
 body {
   background-image: url("assets/pictures/background.jpg");
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+}
+
+nav a {
+  font-family: "Concert One", cursive;
+  font-size: 20px;
+  text-decoration: none;
+
+  padding: 15px 0 15px 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin-top: 6vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer a {
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 10px 40px;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+  border: 0.25px solid black;
+}
+
+/*============== Class Rules ============== */
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.blue {
+  color: darkblue;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
 }
 
 .hero {
@@ -34,38 +99,6 @@ body {
   margin: 5px auto 5px auto;
 }
 
-.logo {
-  height: 50px;
-  width: 50px;
-}
-
-nav {
-  background-color: white;
-  display: flex;
-  align-items: flex-start;
-}
-
-nav a {
-  font-family: "Concert One", cursive;
-  font-size: 20px;
-  text-decoration: none;
-
-  padding: 15px 0 15px 0;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.video {
-  border-radius: 30px;
-  margin: 5px auto 5px auto;
-  min-width: 10px;
-}
-
-.map{
-  border-radius: 30px;
-  margin: 5px auto 5px auto;
-}
-
 .personal-photo {
   height: 200px;
   width: 200px;
@@ -74,62 +107,22 @@ nav a {
   margin-right: auto;
 }
 
-footer {
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  margin-top: 6vh;
-  justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
+.video {
+  border-radius: 30px;
+  margin: 5px auto 5px auto;
+  min-width: 10px;
 }
 
-footer a {
-  margin-right: 2.5%;
-  margin-left: 2.5%;
+.map {
+  border-radius: 30px;
+  margin: 5px auto 5px auto;
 }
+
+.social {
+  height: 65px;
+  width: 65px;
+}
+
 .scale:hover {
   transform: scale(1.1);
-}
-.blue {
-  color: darkblue;
-}
-
-.green {
-  color: green;
-}
-
-.red {
-  color: red;
-}
-
-#facebook {
-  height: 65px;
-  width: 65px;
-}
-
-#instagram {
-  height: 65px;
-  width: 65px;
-}
-#linkedin {
-  height: 65px;
-  width: 65px;
-}
-#twitter {
-  height: 65px;
-  width: 65px;
-}
-
-table{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-td{
-  padding: 10px 40px ;
-}
-
-input, textarea{
-  border-radius: 5px;
-  border: 0.25px solid black;
 }
